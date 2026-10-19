@@ -1,0 +1,6 @@
+{
+  "name": "KNOVA • Achadinhos, Ofertas e Curadoria (@achadinhosknova)",
+  "description": "Eu garimpo. Você recebe. Portal oficial de achadinhos femininos, ofertas e cupons de desconto selecionados da Shopee, Amazon e Mercado Livre.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

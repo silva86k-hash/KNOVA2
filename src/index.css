@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import "./ofertasknova-layout.css";
+
+:root {
+  --white: #ffffff;
+  --soft-pink: #ffd6e7;
+  --pink: #ff4d8d;
+  --yellow: #ffd93b;
+  --teal: #00cdba;
+  --ink: #000000;
+  --radius: 0.8rem;
+  --background: 0 0% 100%;
+  --foreground: 0 0% 0%;
+  --primary: 0 0% 0%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 336 100% 92%;
+  --secondary-foreground: 0 0% 0%;
+  --muted: 0 0% 96%;
+  --muted-foreground: 0 0% 38%;
+  --accent: 174 100% 40%;
+  --accent-foreground: 0 0% 0%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 0%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 0%;
+  --border: 0 0% 85%;
+  --input: 0 0% 85%;
+  --ring: 174 100% 40%;
+}
+
+@layer base {
+  body {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #ffd6e7;
+}
+::-webkit-scrollbar-thumb {
+  background: #00cdba;
+  border: 2px solid #000000;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4d8d;
+}
