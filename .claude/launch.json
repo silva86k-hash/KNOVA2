@@ -1,0 +1,28 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 3000
+    },
+    {
+      "name": "wordpress",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "-y",
+        "@wp-playground/cli@3.1.60",
+        "server",
+        "--port=9400",
+        "--login",
+        "--mount=./wordpress-theme/knova:/wordpress/wp-content/themes/knova",
+        "--blueprint=C:/Users/User/AppData/Local/Temp/claude/C--Temp-knova2-KNOVA2/0324e8ee-f7bf-45ce-a736-2d9635d5b42e/scratchpad/blueprint.json"
+      ],
+      "port": 9400
+    }
+  ]
+}
